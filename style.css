@@ -272,6 +272,10 @@ p {
     color: rgba(255, 255, 2550.4);
 }
 
+.photo a {
+    text-decoration: none;
+}
+
 .photoBx {
     position: relative;
     display: grid;
