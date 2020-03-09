@@ -146,6 +146,24 @@ p {
     color: #fff;
 }
 
+.interview {
+    margin-top: 60px;
+    border-top: 1px solid #000;
+    padding-top: 20px;
+}
+
+.interview a {
+
+    color: #fff;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 15px;
+
+    text-decoration: none;
+    cursor: pointer;
+    background: #000;
+}
+
 /* .skillsTop {
     padding: 250px;
 
