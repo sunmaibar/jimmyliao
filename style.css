@@ -152,17 +152,12 @@ p {
     padding-top: 20px;
 }
 
-.interview a {
+.btn-mt {
 
-    color: #fff;
-    display: inline-block;
-    margin-top: 15px;
-    padding: 5px 15px;
-
-    text-decoration: none;
-    cursor: pointer;
-    background: #000;
+    margin-top: 20px;
 }
+
+
 
 /* .skillsTop {
     padding: 250px;
