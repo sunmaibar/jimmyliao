@@ -1,215 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="Description" content="一個喜歡攝影，患有中二病的大叔" />
-    <title>中二大叔</title>
-    <link rel="stylesheet" href="./style.css" />
-    <script
-      src="https://kit.fontawesome.com/dd0818a002.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <!-- Header -->
-    <header id="header">
-      <a href="#" class="logo">中二大叔</a>
-      <ul>
-        <li><a href="#home" onclick="toggle()">回頂端</a></li>
-        <li><a href="#about" onclick="toggle()">關於我</a></li>
-        <li><a href="#skills" onclick="toggle()">大叔技能</a></li>
-        <li><a href="#portfolio" onclick="toggle()">作品連結</a></li>
-        <li><a href="#photos" onclick="toggle()">濾鏡下載</a></li>
-        <li><a href="#contact" onclick="toggle()">聯絡大叔</a></li>
-      </ul>
-      <div class="toggle" onclick="toggle()"></div>
-    </header>
-    <!-- Banner -->
-    <section class="banner" id="home">
-      <h2>讓我用<br /><span>中二魂</span>燃燒你的小宇宙</h2>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="Description" content="一個喜歡攝影，患有中二病的大叔" />
+  <title>中二大叔</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://kit.fontawesome.com/dd0818a002.js" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160345609-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-    <!-- About -->
-    <section class="sec" id="about">
-      <div class="content">
-        <div class="mxw800p">
-          <h3>關於中二大叔</h3>
-          <p>
-            自由數位創作家，接案工作者，熱愛學習，居住在台北市，出門隨身必備著相機，記錄著周遭所發生的一切，喜歡用影像去說故事....
-            為什麼中二？來我的IG一探究竟
-          </p>
-          <a
-            href="https://www.instagram.com/jimmy_liao_ha/"
-            target="_blank"
-            class="btn"
-            >我的IG</a
-          >
-          <p class="interview">
-            當然還有一段不堪回首的過去，大叔接受台視新聞受訪片段<br />
-            <a class="btn btn-mt" href="https://youtu.be/iFEjo5cXqNo"
-              >台視新聞連結</a
-            >
-          </p>
-        </div>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-160345609-1');
+  </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+    <a href="#" class="logo">中二大叔</a>
+    <ul>
+      <li><a href="#home" onclick="toggle()">回頂端</a></li>
+      <li><a href="#about" onclick="toggle()">關於我</a></li>
+      <li><a href="#skills" onclick="toggle()">大叔技能</a></li>
+      <li><a href="#portfolio" onclick="toggle()">作品連結</a></li>
+      <li><a href="#photos" onclick="toggle()">濾鏡下載</a></li>
+      <li><a href="#contact" onclick="toggle()">聯絡大叔</a></li>
+    </ul>
+    <div class="toggle" onclick="toggle()"></div>
+  </header>
+  <!-- Banner -->
+  <section class="banner" id="home">
+    <h2>讓我用<br /><span>中二魂</span>燃燒你的小宇宙</h2>
+  </section>
+
+  <!-- About -->
+  <section class="sec" id="about">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>關於中二大叔</h3>
+        <p>
+          自由數位創作家，接案工作者，熱愛學習，居住在台北市，出門隨身必備著相機，記錄著周遭所發生的一切，喜歡用影像去說故事....
+          為什麼中二？來我的IG一探究竟
+        </p>
+        <a href="https://www.instagram.com/jimmy_liao_ha/" target="_blank" class="btn">我的IG</a>
+        <p class="interview">
+          當然還有一段不堪回首的過去，大叔接受台視新聞受訪片段<br />
+          <a class="btn btn-mt" href="https://youtu.be/iFEjo5cXqNo">台視新聞連結</a>
+        </p>
       </div>
-    </section>
-    <!-- skills -->
-    <section class="sec" id="skills">
-      <div class="content">
-        <div class="mxw800p">
-          <h3>大叔技能</h3>
-          <p>拍照/攝影/剪接/特效/3D電腦動畫/CINEMA4D/程式開發/網頁</p>
-        </div>
-        <div class="skills">
-          <div class="box">
-            <div class="iconBx">
-              <i class="fa fa-3x fa-pencil-square-o" aria-hidden="true"></i>
-            </div>
-            <div class="content">
-              <h2>3D電腦動畫</h2>
-              <p>
-                擅常使用Cinema4d做3D建模，材質，燈光，環境模擬，適用於動畫，廣告設計，產品設計
-              </p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="iconBx">
-              <i class="fa fa-3x fa-video-camera" aria-hidden="true"></i>
-            </div>
-            <div class="content">
-              <h2>影像專業</h2>
-              <p>
-                從前期的拍攝錄製，到後期的剪輯輸出，調色，特效，合成電腦動畫
-              </p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="iconBx">
-              <i class="fa fa-3x fa-code" aria-hidden="true"></i>
-            </div>
-            <div class="content">
-              <h2>程式專業</h2>
-              <p>
-                HTML,CSS,JavaScript,Node<br />.JS,Git,GitHub，框架會用React，講那麼多反正你也看不懂，這個網頁我寫的就對了
-              </p>
-            </div>
-          </div>
-        </div>
+    </div>
+  </section>
+  <!-- skills -->
+  <section class="sec" id="skills">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>大叔技能</h3>
+        <p>拍照/攝影/剪接/特效/3D電腦動畫/CINEMA4D/程式開發/網頁</p>
       </div>
-    </section>
-
-    <!-- work -->
-    <section class="sec" id="portfolio">
-      <div class="content">
-        <div class="mxw800p">
-          <h3>相關作品</h3>
-          <p>記錄著自己過去的作品</p>
+      <div class="skills">
+        <div class="box">
+          <div class="iconBx">
+            <i class="fa fa-3x fa-pencil-square-o" aria-hidden="true"></i>
+          </div>
+          <div class="content">
+            <h2>3D電腦動畫</h2>
+            <p>
+              擅常使用Cinema4d做3D建模，材質，燈光，環境模擬，適用於動畫，廣告設計，產品設計
+            </p>
+          </div>
         </div>
-
-        <div class="workBx">
-          <div class="brand">
-            <a
-              target="_blank"
-              href="https://www.facebook.com/jajalaba/media_set?set=a.1322601221452&type=3"
-            >
-              <h2>3Ｄ建模作品連結</h2>
-            </a>
+        <div class="box">
+          <div class="iconBx">
+            <i class="fa fa-3x fa-video-camera" aria-hidden="true"></i>
           </div>
-          <div class="brand">
-            <a target="_blank" href="https://www.instagram.com/jimmy_liao_ha/">
-              <h2>街拍作品IG連結</h2>
-            </a>
+          <div class="content">
+            <h2>影像專業</h2>
+            <p>
+              從前期的拍攝錄製，到後期的剪輯輸出，調色，特效，合成電腦動畫
+            </p>
           </div>
-          <div class="brand">
-            <a target="_blank" href="http://instagram.com/jimmy_liao_food/">
-              <h2>食物拍攝作品連結</h2>
-            </a>
+        </div>
+        <div class="box">
+          <div class="iconBx">
+            <i class="fa fa-3x fa-code" aria-hidden="true"></i>
           </div>
-          <div class="brand">
-            <a
-              target="_blank"
-              href="https://www.youtube.com/user/jajalaba/playlists?view_as=subscriber"
-            >
-              <h2>Youtube頻道連結</h2>
-            </a>
+          <div class="content">
+            <h2>程式專業</h2>
+            <p>
+              HTML,CSS,JavaScript,Node<br />.JS,Git,GitHub，框架會用React，講那麼多反正你也看不懂，這個網頁我寫的就對了
+            </p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- 拍攝作品 -->
-    <section class="sec photos" id="photos">
-      <div class="content">
-        <div class="mxw800p">
-          <h3>最愛的街景調色檔，請用桌機下載</h3>
-          <p>
-            攝影，是無時無刻的觀察<br />這裡提供一些高級的濾鏡模板免費下載（xmp檔），參數都是由大叔調整的，你如果不知道這是什麼，請你不用下載，每張照片的體質都不同，並不是每張套了都會好棒棒，還是要看現場光源與環境，還有相機曝光等等的因素。
-          </p>
+  <!-- work -->
+  <section class="sec" id="portfolio">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>相關作品</h3>
+        <p>記錄著自己過去的作品</p>
+      </div>
+
+      <div class="workBx">
+        <div class="brand">
+          <a target="_blank" href="https://www.facebook.com/jajalaba/media_set?set=a.1322601221452&type=3">
+            <h2>3Ｄ建模作品連結</h2>
+          </a>
         </div>
+        <div class="brand">
+          <a target="_blank" href="https://www.instagram.com/jimmy_liao_ha/">
+            <h2>街拍作品IG連結</h2>
+          </a>
+        </div>
+        <div class="brand">
+          <a target="_blank" href="http://instagram.com/jimmy_liao_food/">
+            <h2>食物拍攝作品連結</h2>
+          </a>
+        </div>
+        <div class="brand">
+          <a target="_blank" href="https://www.youtube.com/user/jajalaba/playlists?view_as=subscriber">
+            <h2>Youtube頻道連結</h2>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="photoBx">
-          <div class="photo">
-            <div class="imgBx">
-              <img src="./images/photo01.jpg" alt="" />
-            </div>
-            <div class="detail">
-              <div>
-                <a href="./file/中二大叔分享＿101壓縮調色檔.xmp" download=""
-                  ><h2>空間的壓縮感<br />點擊下載</h2></a
-                >
-              </div>
+  <!-- 拍攝作品 -->
+  <section class="sec photos" id="photos">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>最愛的街景調色檔，請用桌機下載</h3>
+        <p>
+          攝影，是無時無刻的觀察<br />這裡提供一些高級的濾鏡模板免費下載（xmp檔），參數都是由大叔調整的，你如果不知道這是什麼，請你不用下載，每張照片的體質都不同，並不是每張套了都會好棒棒，還是要看現場光源與環境，還有相機曝光等等的因素。
+        </p>
+      </div>
+
+      <div class="photoBx">
+        <div class="photo">
+          <div class="imgBx">
+            <img src="./images/photo01.jpg" alt="" />
+          </div>
+          <div class="detail">
+            <div>
+              <a href="./file/中二大叔分享＿101壓縮調色檔.xmp" download="">
+                <h2>空間的壓縮感<br />點擊下載</h2>
+              </a>
             </div>
           </div>
-          <div class="photo">
-            <div class="imgBx">
-              <img src="./images/photo02.jpg" alt="" />
-            </div>
-            <div class="detail">
-              <div>
-                <a href="./file/中二大叔分享＿新光三越夜幕.xmp" download=""
-                  ><h2>繁華的商圈<br />點擊下載</h2></a
-                >
-              </div>
+        </div>
+        <div class="photo">
+          <div class="imgBx">
+            <img src="./images/photo02.jpg" alt="" />
+          </div>
+          <div class="detail">
+            <div>
+              <a href="./file/中二大叔分享＿新光三越夜幕.xmp" download="">
+                <h2>繁華的商圈<br />點擊下載</h2>
+              </a>
             </div>
           </div>
-          <div class="photo">
-            <div class="imgBx">
-              <img src="./images/photo03.jpg" alt="" />
-            </div>
-            <div class="detail">
-              <div>
-                <a href="./file/中二大叔分享_豪宅夜景調色檔.xmp" download=""
-                  ><h2>豪宅區的帝國<br />點擊下載調色檔</h2></a
-                >
-              </div>
+        </div>
+        <div class="photo">
+          <div class="imgBx">
+            <img src="./images/photo03.jpg" alt="" />
+          </div>
+          <div class="detail">
+            <div>
+              <a href="./file/中二大叔分享_豪宅夜景調色檔.xmp" download="">
+                <h2>豪宅區的帝國<br />點擊下載調色檔</h2>
+              </a>
             </div>
           </div>
-          <div class="photo">
-            <div class="imgBx">
-              <img src="./images/photo04.jpg" alt="" />
-            </div>
-            <div class="detail">
-              <div>
-                <a href="./file/中二大叔分享＿通化夜市調色檔.xmp" download=""
-                  ><h2>鬧中取靜的夜市<br />點擊下載</h2></a
-                >
-              </div>
+        </div>
+        <div class="photo">
+          <div class="imgBx">
+            <img src="./images/photo04.jpg" alt="" />
+          </div>
+          <div class="detail">
+            <div>
+              <a href="./file/中二大叔分享＿通化夜市調色檔.xmp" download="">
+                <h2>鬧中取靜的夜市<br />點擊下載</h2>
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- 聯絡 -->
-    <section class="sec contact" id="contact">
-      <div class="content">
-        <div class="mxw800p">
-          <h3>大叔社群</h3>
-          <p>感謝你來拜訪我，歡迎來追蹤我的FB,IG</p>
-        </div>
-        <!-- <div class="contactForm">
+  <!-- 聯絡 -->
+  <section class="sec contact" id="contact">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>大叔社群</h3>
+        <p>感謝你來拜訪我，歡迎來追蹤我的FB,IG</p>
+      </div>
+      <!-- <div class="contactForm">
                 <form>
                     <div class="row100">
                         <div class="inputBx50">
@@ -231,34 +228,31 @@
                     </div>
                 </form>
             </div> -->
-        <div class="sci">
-          <ul>
-            <li>
-              <a href="https://www.facebook.com/jajalaba"
-                ><i class="fab fa-5x fa-facebook-square"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/jimmy_liao_ha/"
-                ><i class="fab fa-5x fa-instagram"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-        <div class="copyright">本網站由<a href="#">中二大叔</a>設計開發</div>
+      <div class="sci">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/jajalaba"><i class="fab fa-5x fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/jimmy_liao_ha/"><i class="fab fa-5x fa-instagram"></i></a>
+          </li>
+        </ul>
       </div>
-    </section>
+      <div class="copyright">本網站由<a href="#">中二大叔</a>設計開發</div>
+    </div>
+  </section>
 
-    <script>
-      window.addEventListener("scroll", function() {
-        var header = document.querySelector("header");
-        header.classList.toggle("sticky", window.scrollY > 0);
-      });
+  <script>
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
 
-      function toggle() {
-        var header = document.querySelector("header");
-        header.classList.toggle("active");
-      }
-    </script>
-  </body>
+    function toggle() {
+      var header = document.querySelector("header");
+      header.classList.toggle("active");
+    }
+  </script>
+</body>
+
 </html>
